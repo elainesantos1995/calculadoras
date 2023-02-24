@@ -1,0 +1,70 @@
+  button {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: blue;
+  }
+  
+input {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: blue;
+  }
+
+  #div-valores{
+    display: flexbox; 
+    background-color: cornflowerblue; 
+    border-radius: 4%; 
+    border-style: groove;
+    width: 450px; 
+    text-align: center; 
+    align-tracks: center; 
+    margin-left: 30%;
+    margin-top: -50%;
+  }
+
+  #div-valores div{
+    margin: 0%; padding: 10px;
+  }
+
+  #cabecalho{
+    background-color: rgb(100, 176, 202);
+    width: auto;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  img{
+    width: 50px;
+    height: 60px;
+    display: inline-block;
+  }
+
+  h1{
+    display: inline-block;
+    margin-left: 40%;
+  }
+
+  #div-menu{
+    width: 10% !important;
+    height: 100%;
+    color: blue;
+    background-color:  rgb(100, 176, 202);
+    margin-top: 0px;
+    border-radius: 5px;
+  }
+
+  #div-conteudo{
+    width: 90%;
+    margin-left: 10%;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  a{
+    text-decoration: none !important;
+  }

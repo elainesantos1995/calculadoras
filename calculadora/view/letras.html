@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\css\index.css'>
+    <script src='C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\logica\letras.js'></script>
+</head>
+<body>
+    <div id="cabecalho">
+        <a href="C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\view\index.html" alt="logo">
+            <img alt="calculadora" src="C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\assets\calculator.png">
+        </a>
+            <h1 style="text-align: center;">Projeto Calculadoras</h1>
+    </div>
+
+    <div id="div-body" style="width: 100%; margin-top: 0px;"> 
+
+        <div id="div-menu">
+                    
+            <table>
+                <thead>Opções</thead>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/elainesantos1995/">Meu Git</a></td>
+                </tr>
+                <tr>
+                    <td><a href="C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\view\letras.html">Contador de Letras</a></td>
+                </tr>
+                <tr>
+                    <td><a href="C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\view\index.html">Fibonacci</a></td>
+                </tr>                
+                <tr>
+                    <td><a href="C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\view\index.html">Fatorial</a></td>
+                </tr>
+                <tr>
+                    <td><a href="C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\view\index.html">Graus Celcius</a></td>
+                </tr>
+                <tr>
+                    <td><a href="C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\view\index.html">Graus Farenheit</a></td>
+                </tr>
+                <tr>
+                    <td><a href="C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\view\index.html">Áreas Geométricas</a></td>
+                </tr>
+                <tr>
+                    <td><a href="C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\view\index.html">Calculador KM</a></td>
+                </tr>
+               
+               
+            </table>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+
+
+        <div  id="div-conteudo">    
+
+            <div id="div-valores">
+            
+                <div id="div-valor-1" >
+                    <label for="letra">Palavra: </label>
+                    <input type="text" id="letra" name="letra">
+                </div>
+
+                <div id="botoes">
+                    <div id="div-btn" style="display: inline;">
+                        <button id="calcular" onclick="contadorDeCaracteres()">Calcular</button>
+                    </div>
+
+                    <div id="div-btn" style="display: inline;">
+                        <button id="limparCampos" onclick="limparCampos()">Limpar campos</button>
+                    </div>
+                </div>
+
+                <p id="resultado"></p>
+                
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
