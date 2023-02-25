@@ -23,7 +23,7 @@ input {
     text-align: center; 
     align-tracks: center; 
     margin-left: 30%;
-    margin-top: -50%;
+    margin-top: -710px;
   }
 
   #div-valores div{
@@ -46,7 +46,8 @@ input {
 
   h1{
     display: inline-block;
-    margin-left: 40%;
+    margin-left: 1%;
+    margin-top: 0px;
   }
 
   #div-menu{
@@ -63,6 +64,7 @@ input {
     margin-left: 10%;
     height: 100%;
     border-radius: 5px;
+    margin-top: 0px;
   }
 
   a{
