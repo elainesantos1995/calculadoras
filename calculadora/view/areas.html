@@ -6,7 +6,13 @@
     <title>Calculadora</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\css\index.css'>
-    <script src='C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\logica\letras.js'></script>
+    <script src='C:\Users\elain\OneDrive\Documentos\estudos-python\calculadora\calculadora\logica\areas.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        .hidden {
+          display: none;
+        }
+      </style>
 </head>
 <body>
     <div id="cabecalho">
@@ -62,15 +68,32 @@
         <div  id="div-conteudo">    
 
             <div id="div-valores">
-            
+
                 <div id="div-valor-1" >
-                    <label for="letra">Palavra: </label>
-                    <input type="text" id="letra" name="letra">
+                    <label for="figura">Figura: </label>
+                    <select name="figura" id="figura" onchange="mostrarEsconderDiv()">
+                        <option value="0">Selecione</option>
+                        <option value="triangulo">Triângulo</option>
+                        <option value="quadrado">Quadrado</option>
+                        <option value="retangulo">Retângulo</option>
+                        <option value="circulo">Circulo</option>
+                        <option value="trapezio">lozango</option>
+                    </select>
+                </div>
+            
+                <div id="campo1" >
+                    <label for="base">Base: </label>
+                    <input type="text" id="base" name="base">
+                </div>
+
+                <div id="campo2">
+                    <label for="altura">Altura: </label>
+                    <input type="text" id="altura" name="altura">
                 </div>
 
                 <div id="botoes">
                     <div id="div-btn" style="display: inline;">
-                        <button id="calcular" onclick="contadorDeCaracteres()">Calcular</button>
+                        <button id="calcular" onclick="calcular()">Calcular</button>
                     </div>
 
                     <div id="div-btn" style="display: inline;">
