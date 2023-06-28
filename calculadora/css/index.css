@@ -70,3 +70,13 @@ input {
   a{
     text-decoration: none !important;
   }
+
+  #figura{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: blue;
+    width: 180px;
+    box-sizing: border-box;
+  }
